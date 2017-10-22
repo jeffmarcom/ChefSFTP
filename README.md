@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ChefSFTP
 =======
 # sftp
@@ -32,4 +31,3 @@ Author:: Jeff Marcom (<jeffmarcom@gmail.com>)
 ## License
 
 Apache License, Version 2.0
->>>>>>> fixup
