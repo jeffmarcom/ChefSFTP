@@ -7,7 +7,6 @@ property :upload_dir, String, name_property: true, required: true
 
 action :create do
   user_account new_resource.username do
-    
     password new_resource.password
     groups [ new_resource.group ]
   end
