@@ -1,6 +1,5 @@
 # ChefSFTP
 =======
-# sftp
 
 # sftp-cookbook
 
@@ -8,7 +7,7 @@ Installs & Configures SFTP and SFTP users.
 
 ## Supported Platforms
 
-Centos
+Centos 7
 
 ## Usage
 
