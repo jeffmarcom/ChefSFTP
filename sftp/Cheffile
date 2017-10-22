@@ -1,0 +1,5 @@
+site "https://supermarket.getchef.com/api/v1"
+ext_dep_path = '/tmp/ext-cookbooks'
+
+cookbook 'openssh'
+cookbook 'user'

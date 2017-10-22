@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: centos-7.3
+
+suites:
+  - name: default
+    run_list:
+      - recipe[sftp::default]
+    verifier:
+      inspec_tests:
+        - test/smoke/default
+    attributes:

@@ -1,0 +1,12 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    iptables (4.2.1)
+    openssh (2.6.0)
+      iptables (>= 1.0)
+    user (0.7.0)
+
+DEPENDENCIES
+  openssh (>= 0)
+  user (>= 0)
+

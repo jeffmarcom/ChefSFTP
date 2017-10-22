@@ -1,0 +1,24 @@
+.vagrant
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# Bundler
+bin/*
+.bundle/*
+
+# test kitchen
+.kitchen/
+.kitchen.local.yml
+
+# Chef
+*.delivery
+*/cookbooks
+*/local-mode-cache
+*/nodes
+*/tmp
+
+
